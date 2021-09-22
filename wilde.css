@@ -1,32 +1,56 @@
-.speech {
+p.speech {
     font-size: 18px;
-    color: rgba(0, 0, 0, 0.842);
+    color: black;
 }
-.stage-direction {
+p.stage-direction {
     font-size: 15px;
-    background-color: #f0f8ffdc;
+    background-color: yellow;
 }
-.stage-direction:hover{
+p.stage-direction:hover{
     color: rgba(0, 0, 2, 0.863);
-    background-color: #296661;
+    background-color: blue;
 }
-.name {
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.753);
-}
-
-.MISS.PRISM {
-    color: #f50b97;
+h6.MISSPRISM {
+    color:violet;
 }
 
-.CECILY {
-    color: #0e8ae9e3;
+h6.CECILY {
+    color: blue;
 }
-.CECILY:hover 
+h6.CECILY:hover 
 {
-    color: #e9910ee3;
+    color: yellow;
 }
-.MISS.PRISM
+h6.MISSPRISM
  {
-    color: #bd0ee9e3;
+    color:red;
+}
+table
+ {
+    border: 1px solid black;
+    width: 55%;
+    height: 55%;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-right: 33px;
+    margin-left: 43px;
+}
+td
+ {
+     border: 1px solid black;
+     padding: 12px;
+     color: blue;
+     text-align: center;
+}
+tr
+{
+    border:1px solid black;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+tr:nth-child(even)
+ {
+    background-color:yellow;
 }
