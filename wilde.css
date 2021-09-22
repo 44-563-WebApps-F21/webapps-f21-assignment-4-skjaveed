@@ -22,19 +22,11 @@
 .CECILY {
     color: #0e8ae9e3;
 }
-table,th,td {
-    border: 2px solid rgba(0, 0, 0, 0.849);
-    padding: 1rem 2rem;
-    text-align: center;
-    
+.CECILY:hover 
+{
+    color: #e9910ee3;
 }
-td {
-    color: #2346df;
-}
-table {
-    border-collapse: collapse;
-    margin: 1rem auto;
-}
-tr:nth-child(even) {
-    background-color: #eaeaeac2;
+.MISS.PRISM
+ {
+    color: #bd0ee9e3;
 }
