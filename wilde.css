@@ -1,0 +1,51 @@
+.speech {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.842);
+}
+.stage-direction {
+    font-size: 15px;
+    background-color: #f0f8ffdc;
+}
+.stage-direction:hover{
+    color: rgba(0, 0, 2, 0.863);
+    background-color: #296661;
+}
+.name {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.ladywindermare {
+    color: #f50b97;
+}
+
+.lorddarlington {
+    color: #0e8ae9e3;
+}
+table,th,td {
+    border: 2px solid rgba(0, 0, 0, 0.849);
+    padding: 1rem 2rem;
+    text-align: center;
+    
+}
+td {
+    color: #2346df;
+}
+table {
+    border-collapse: collapse;
+    margin: 1rem auto;
+}
+tr:nth-child(even) {
+    background-color: #eaeaeac2;
+}
+
+.link {
+text-align: center;
+font-size: 26px;
+font-weight: 700;
+}
+.name:hover {
+    border: 2px solid;
+    border-color: inherit;
+    box-shadow: 1px 6px 7px;
+}
